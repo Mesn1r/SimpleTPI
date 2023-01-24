@@ -1,4 +1,4 @@
-# SimpleRCI
+# SimpleTAI
 
 writing these materials for myself and for educational purposes .i will write long explanetion about every line of code for better understanding ..
 
