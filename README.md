@@ -8,6 +8,6 @@ we test the script by create a vm in my case is kali linux .
 
 it the console we type this command 
 
-'''
+```
 ifconfig
-'''
+```
