@@ -2,7 +2,6 @@
 
 writing these materials for myself and for educational purposes .i will write long explanetion about every line of code for better understanding ..
 
-after reading the script and understaing its all for educational purposes. 
 
 so what is thread access injection ? 
 
