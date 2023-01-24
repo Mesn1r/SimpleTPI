@@ -5,7 +5,7 @@ writing these materials for myself and for educational purposes .i will write lo
 
 so what is thread access injection ? 
 
-Thread execution hijacking is a method used to control a running thread in a process. It starts by opening access to a process, then allocating memory within the process, writing malicious code (payload) into the allocated memory, creating a new thread in the process and starting it with the malicious code. This will cause the code to take control of the thread.
+Thread execution hijacking is a method used to control a running thread in a process. It starts by opening access to a process , the process i demonsrate be claculator .. , then allocating memory within the process, writing malicious code (payload) into the allocated memory, creating a new thread in the process and run it with the malicious code. This will cause the code to take control of the thread.
 
 we test the script by create a vm in my case is kali linux . 
 
@@ -43,8 +43,9 @@ we will change the filemode for .exe
 change back to the vm and listen to the port we specify 
 ```nc -nlvp 4444```
 
+Execute the program and our "hacker station" and we are in
 
-
+<img width="552" alt="Screenshot 2023-01-24 at 13 58 20" src="https://user-images.githubusercontent.com/122444563/214379873-a32fb0de-24e1-4a36-a9fe-b880ea83f9e0.png">
 
 
 
