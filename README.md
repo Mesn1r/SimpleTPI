@@ -3,7 +3,7 @@
 writing these materials for myself and for educational purposes .i will write long explanetion about every line of code for better understanding ..
 
 
-Writing these materials for myself and for educational purposes. I will write long explanations about every line of code for better understanding.
+
 
 So, what is thread process injection?
 
