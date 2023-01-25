@@ -42,7 +42,9 @@ cl /Tc <filename>.cpp
 ```
  We will then execute the program on our "hacker station" and we should have access.
  
-<img width="552" alt="Screenshot 2023-01-24 at 13 58 20" src="https://user-images.githubusercontent.com/122444563/214379873-a32fb0de-24e1-4a36-a9fe-b880ea83f9e0.png">
+ <img width="552" alt="Screenshot 2023-01-24 at 13 58 20" src="https://user-images.githubusercontent.com/122444563/214533891-c84c47b9-cf2b-4ae4-89d4-dd2e28b1e75b.png">
+
+
 
 To verify that the process has been injected, we can use the HackerProcess tool and find the notepad.exe process Properties -> Memory -> Protection column RWX (Read, Write, Execute) and can find in the memory region the reverse shell code.
 
